@@ -1,0 +1,154 @@
+/* Web Fonts */
+
+@import url(http://fonts.useso.com/css?family=Quicksand);
+@import url(http://fonts.useso.com/css?family=Open+Sans);
+
+body{
+	line-height: 25px;
+	font-size:13px;
+	font-family:"Open Sans", sans-serif;
+	color: #fff;
+	background: url(../img/bg-main.jpg) no-repeat center top;
+background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+}
+
+.padd{
+	padding:10px;
+}
+
+a, a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+
+a:hover{
+	color:rgba(255,255,255,0.8);
+}
+
+a:active, a:focus { 
+border:none;
+outline:none;
+}
+
+a:-moz-any-link:focus { 
+outline:none; 
+}
+
+ul li{
+   padding: 3px 0px;
+}
+
+.container{
+	max-width:1000px;
+}
+
+/* Top */
+
+.tops{
+color:#fff;
+text-align:center;
+padding-bottom:30px;
+padding-top:120px;
+}
+
+
+.csoon h2{
+font-family: 'Quicksand', sans-serif;
+text-transform:uppercase;
+font-size:60px;
+line-height:55px;
+margin-bottom:20px;
+}
+
+.csoon p{
+	font-size:14px;
+	line-height:30px;
+	max-width:600px;
+	margin:15px auto;
+}
+
+/* timer */
+
+
+.timer {
+    margin-top: 120px;
+    text-shadow: 0 1px 5px rgba(0,0,0,.1);
+	animation-duration: 1s;
+    animation-delay:0.4s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-duration: 1s;
+    -moz-animation-delay:0.4s;
+    -ms-animation-duration: 1s;
+    -ms-animation-delay: 0.4s;
+    -o-animation-duration: 1s;    
+    -o-animation-delay: 0.4s;
+}
+
+.timer .days-wrapper,
+.timer .hours-wrapper,
+.timer .minutes-wrapper,
+.timer .seconds-wrapper {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    margin: 0 40px;
+    padding-top: 20px;
+    background: #2d2d2d; /* browsers that don't support rgba */
+    background: rgba(45,45,45,.7);
+    font-size: 18px;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+}
+
+.timer .days-wrapper:hover,
+.timer .hours-wrapper:hover,
+.timer .minutes-wrapper:hover,
+.timer .seconds-wrapper:hover {
+    background: #e75967 ;
+    text-shadow: none;
+}
+
+.timer .days,
+.timer .hours,
+.timer .minutes,
+.timer .seconds {
+    font-size: 80px;
+    line-height: 90px;
+}
+
+.copyright {
+margin-top: 200px;
+}
+
+/* Responsive */
+
+@media (max-width: 480px){
+   
+}
+
+@media (max-width: 767px){
+	.tops{
+		padding-top:50px;
+	}
+	.attr{
+	text-align:left;
+	}
+   .csoon h2{
+   font-size:40px;
+   line-height:55px;
+   }
+	.countdown .date{
+		font-size:22px;
+		height:80px;
+		width:80px;
+		padding-top:12px;
+		margin-left:3px;
+		margin-right:3px;
+	}
+}
